@@ -7,7 +7,6 @@
 body{
     margin: auto;
     text-align: center;
-    /* background-color: #9e140a; */
     background: rgb(158,20,10);
 background: linear-gradient(90deg, rgba(158,20,10,1) 0%, rgba(203,40,28,1) 100%);
 }
