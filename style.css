@@ -28,6 +28,7 @@ header {
     font-size: 2.7em;
     font-family: Vollkorn;
     color: rgb(255, 255, 255);
+    font-weight: bold;
 }
 
 #menu ul {
@@ -97,11 +98,12 @@ section{
     max-width: 700px;
     background-color: aliceblue;
     text-align: center;
-    padding: 20px 10px;
+    padding: 20px 15px;
     border-radius: 5px;
     background-image: url(imagens/papel.jpg);
     background: linear-gradient(rgba(0, 0, 0, 0.103), rgba(0, 0, 0, 0.123)), url(imagens/papel.jpg);
     background-size: cover;
+    background-attachment: fixed;
     box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.473);
 }
 section > a{
@@ -130,7 +132,7 @@ section div{
 
 footer {
     text-align: center;
-    padding: 20px;
+    padding: 15px;
     font-size: 1.25rem;
     color: rgb(214, 209, 209);
     background-color: rgba(0, 0, 0, 0.2);
