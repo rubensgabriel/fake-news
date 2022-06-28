@@ -9,7 +9,7 @@ body{
     margin: auto;
     text-align: center;
     background: rgb(158,20,10);
-background: linear-gradient(90deg, rgba(158,20,10,1) 0%, rgba(203,40,28,1) 100%);
+background: linear-gradient(90deg, rgb(100, 13, 7) 0%, rgb(165, 31, 21) 100%);
 }
 
 html {
@@ -30,6 +30,11 @@ header {
     font-family: Vollkorn;
     color: rgb(255, 255, 255);
     font-weight: bold;
+}
+
+#logo > img{
+    height: 38px;
+    margin-bottom: -3px;
 }
 
 #menu ul {
@@ -69,11 +74,12 @@ h2, h3{
     font-family: Vollkorn;
 }
 h3{
-    font-size: 1.5em;
+    font-size: 1.7em;
 }
 p{
     font-family: roboto;
     line-height: 1.3;
+    text-align: justify;
 }
 .header > div{
     background: linear-gradient(rgba(0, 0, 0, 0.849), rgba(0, 0, 0, 0.623)), url(imagens/jornal.jpg);
@@ -92,14 +98,13 @@ p{
     max-width: 600px;
 }
 
-
 section{
     font-size: 1.3em;
     margin: 40px auto;
     max-width: 700px;
     background-color: aliceblue;
     text-align: center;
-    padding: 20px 30px;
+    padding: 20px 30px 30px;
     border-radius: 5px;
     background-image: url(imagens/papel.jpg);
     background: linear-gradient(rgba(0, 0, 0, 0.103), rgba(0, 0, 0, 0.123)), url(imagens/papel.jpg);
@@ -128,13 +133,16 @@ section div{
     padding: 0px 10px 0px 0px;
 }
 .coluna {
-    text-align: justify;
+    text-align: left;
     display: flex;
+}
+.coluna > div > ul > li > p{
+    text-align: left;
 }
 
 footer {
     text-align: center;
-    padding: 15px;
+    padding: 12px;
     font-size: 1.25rem;
     color: rgb(214, 209, 209);
     background-color: rgba(0, 0, 0, 0.2);
